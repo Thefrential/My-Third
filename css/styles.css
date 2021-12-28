@@ -1,0 +1,160 @@
+body {
+  text-align: center;
+  background-color: #f2e205;
+  color: #68788c;
+  font-size: 1.2rem;
+}
+
+h1 {
+  font-family: 'Merriweather', serif;
+  font-size: 2.8rem;
+  line-height: 1.8;
+  color: #fff;
+}
+
+h2 {
+  font-family: 'Merriweather', serif;
+  font-size: 2.3rem;
+  line-height: 1.8;
+}
+
+.title-div {
+  padding: 8% 0 0;
+  text-align: left;
+}
+.big-text {
+  font-size: 2.8rem;
+  line-height: 1.8;
+}
+
+.bg-grey {
+  background-color: #68788c;
+  color: #f2e205;
+}
+
+.container-fluid {
+  padding: 7% 15%;
+}
+
+.features-box {
+  padding: 4.3%;
+}
+
+/*icon classes*/
+
+.icon {
+  margin-bottom: 1rem;
+}
+
+.icon:hover {
+  color: #00f;
+}
+
+.icon-1 {
+  font-size: 1.4rem;
+}
+
+.social-icon {
+  margin: 3% 2%;
+}
+
+/* images */
+
+.testimonial-image {
+  width: 20%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+.press {
+  margin: 0 2%;
+  width: 18%;
+}
+
+.img-1 {
+  width: 60%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 30%;
+}
+
+/* links */
+
+.link-1 {
+  font-size: 1.2rem;
+}
+
+.link-1:hover, .link-1:focus {
+  color: #f2e205 !important;
+}
+
+/*buttons*/
+
+.but-1 {
+  margin: 5% 0.8rem 4% 0;
+}
+
+.but-1:hover {
+  background-color: #f2e205;
+}
+
+ /*cards*/
+
+.my-cards {
+  background-color: inherit;
+  border: 1px solid yellow;
+}
+
+.mycard-header {
+  background-color: grey;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+.pricing-column {
+  margin: 5% auto;
+}
+
+.card-btn {
+  display: block;
+  width: 100%;
+}
+
+/* ids */
+
+#title {
+  overflow: hidden;
+}
+
+#title .container-fluid {
+  padding: 2% 15% 4%;
+}
+
+#features {
+  position: relative;
+}
+
+#my-nbra {
+  color: #f2e205;
+  font-size: 2rem;
+  font-family: 'Noto Serif', serif;
+}
+
+#pricing .container-fluid {
+  padding: 7% 8%;
+}
+
+@media(max-width:1080px) {
+  .title-div {
+    text-align: center;
+  }
+
+  .img-1 {
+    transform: rotate(0);
+    position: static;
+    width: 64%;
+  }
+
+  .but-1 {
+    margin: 3% 0.8rem 8% 1rem;
+  }
+}
