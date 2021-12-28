@@ -1,8 +1,11 @@
+
+/* tags */
+
 body {
   text-align: center;
   background-color: #f2e205;
   color: #68788c;
-  font-size: 1.2rem;
+  font-size: 1.1rem;
 }
 
 h1 {
@@ -55,7 +58,7 @@ h2 {
 }
 
 .social-icon {
-  margin: 3% 2%;
+  margin: 0 1.5rem 2rem   ;
 }
 
 /* images */
@@ -143,6 +146,16 @@ h2 {
   padding: 7% 8%;
 }
 
+#press .container-fluid{
+  padding:7% 5%;
+}
+
+#copy{
+  font-size:0.9rem;
+}
+
+/* media queries */
+
 @media(max-width:1080px) {
   .title-div {
     text-align: center;
@@ -156,5 +169,18 @@ h2 {
 
   .but-1 {
     margin: 3% 0.8rem 8% 1rem;
+  }
+}
+
+@media(max-width:730px){
+  html{
+    font-size:14px;
+  }
+  #title .container-fluid, .container-fluid{
+    padding-right:8%;
+    padding-left:8%;
+  }
+  .testimonial-image{
+    width:30%;
   }
 }
